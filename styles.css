@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+#gameInfo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#score, #timer {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+#gameBoard {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#basket {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #6B8E23; /* 绿色篮子 */
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px; /* 使篮子居中 */
+    border-radius: 10px;
+}
+
+.fruit {
+    position: absolute;
+    font-size: 3rem;
+    user-select: none;
+}
